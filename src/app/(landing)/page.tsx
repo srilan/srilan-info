@@ -172,6 +172,26 @@ export default function LandingPage() {
                 or skip to the work
               </Link>
             </div>
+
+            {/* Bored? play a game */}
+            <Link
+              href="/games"
+              className="group mt-6 inline-flex items-center gap-2 text-xs font-mono uppercase tracking-[0.25em] text-white/40 hover:text-white transition-colors opacity-0 animate-landing-fade [animation-delay:4000ms]"
+            >
+              <span
+                aria-hidden
+                className="text-base transition-transform duration-300 group-hover:rotate-12"
+              >
+                🎮
+              </span>
+              <span>bored, not interested? play a game instead</span>
+              <span
+                aria-hidden
+                className="transition-transform duration-300 group-hover:translate-x-0.5"
+              >
+                →
+              </span>
+            </Link>
           </>
         )}
       </div>
