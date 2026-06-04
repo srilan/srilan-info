@@ -38,7 +38,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     highlights: [
       "Live results for major PCSO draws",
-      "Mobile-first, ad-free reading experience",
+      "Mobile-first, minimal ads reading experience",
       "Static-first delivery for fast loads",
     ],
     year: "2025",
@@ -73,6 +73,7 @@ export const projects: Project[] = [
       glow: "rgba(56, 189, 248, 0.35)",
       ink: "#f0f9ff",
     },
+    screenshot: "/portfolio/buhay-pinoy.png",
   },
   {
     slug: "tcg-overdrive",
@@ -97,6 +98,7 @@ export const projects: Project[] = [
       glow: "rgba(167, 139, 250, 0.35)",
       ink: "#f5f3ff",
     },
+    screenshot: "/portfolio/tcg-overdrive.png",
   },
   {
     slug: "paykita",
@@ -167,6 +169,7 @@ export const projects: Project[] = [
       glow: "rgba(74, 222, 128, 0.4)",
       ink: "#f0fdf4",
     },
+    screenshot: "/portfolio/football-manager.png",
   },
 ];
 
