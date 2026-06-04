@@ -6,6 +6,7 @@ import { profile } from "@/content/profile";
 import { ThemeToggle } from "./ThemeToggle";
 
 const NAV = [
+  { href: "/about", label: "About" },
   { href: "/experience", label: "Experience" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/certificates", label: "Certificates" },
@@ -19,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-[color-mix(in_srgb,var(--color-bg)_85%,transparent)] border-b">
       <div className="mx-auto max-w-3xl px-6 h-14 flex items-center justify-between">
         <Link
-          href="/"
+          href="/about"
           className="font-medium tracking-tight hover:opacity-70 transition-opacity"
         >
           <span className="text-gradient-brand">{profile.shortName}</span>
