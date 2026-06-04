@@ -304,6 +304,68 @@ export default function HomePage() {
           </section>
         </Reveal>
 
+        {/* Bored? play a game */}
+        <Reveal>
+          <section className="pt-14">
+            <Link
+              href="/games"
+              className="group relative block overflow-hidden rounded-2xl border p-6 sm:p-8 transition-all duration-300 hover:-translate-y-0.5"
+              style={{
+                background:
+                  "linear-gradient(135deg, color-mix(in srgb, var(--color-emerald) 12%, var(--color-bg-elev)), color-mix(in srgb, var(--color-fuchsia) 12%, var(--color-bg-elev)))",
+                borderColor:
+                  "color-mix(in srgb, var(--color-fuchsia) 40%, var(--color-border))",
+              }}
+            >
+              <div
+                aria-hidden
+                className="absolute -top-12 -right-12 h-40 w-40 rounded-full"
+                style={{
+                  background: "var(--color-fuchsia)",
+                  opacity: 0.18,
+                  filter: "blur(40px)",
+                }}
+              />
+              <div className="relative flex items-center justify-between gap-6 flex-wrap">
+                <div className="flex items-center gap-4">
+                  <span
+                    aria-hidden
+                    className="text-4xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12"
+                  >
+                    🎮
+                  </span>
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-muted)] font-mono mb-1">
+                      Aside
+                    </p>
+                    <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">
+                      Bored?{" "}
+                      <span className="text-gradient-brand">
+                        Play a game instead.
+                      </span>
+                    </h2>
+                    <p className="mt-1 text-sm text-[var(--color-fg-soft)]">
+                      Snake, or a Suika-style merge with two stupid themes.
+                    </p>
+                  </div>
+                </div>
+                <span
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border transition-colors group-hover:bg-[var(--color-bg-elev)]"
+                  style={{
+                    borderColor:
+                      "color-mix(in srgb, var(--color-fuchsia) 40%, var(--color-border))",
+                  }}
+                >
+                  enter the arcade
+                  <span aria-hidden className="transition-transform group-hover:translate-x-1">
+                    →
+                  </span>
+                </span>
+              </div>
+            </Link>
+          </section>
+        </Reveal>
+
         {/* CTA card */}
         <Reveal>
           <section className="py-14">
