@@ -35,7 +35,7 @@ export const projects: Project[] = [
     url: "https://lottoph.info",
     repo: "https://github.com/srilan/lotto",
     status: "live",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Python", "Webscrape", "Tailwind CSS", "MongoDB", "Cron Jobs", "ffmpeg"],
     highlights: [
       "Live results for major PCSO draws",
       "Mobile-first, minimal ads reading experience",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     url: "https://buhaypinoy.online",
     repo: "https://github.com/srilan/buhaypinoy",
     status: "live",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
     highlights: [
       "Editorial-grade typography",
       "SEO-optimized content structure",
@@ -83,8 +83,8 @@ export const projects: Project[] = [
       "A full-featured e-commerce platform for trading card games — product catalog, search, cart, and checkout. Built end-to-end as a developer-first project.",
     url: "https://tcgoverdrive.com",
     repo: "https://github.com/srilan/mana-market-magic",
-    status: "private",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+    status: "live",
+    tech: ["Next.js", "TypeScript", "Stripe", "MongoDB", "PayMongo", "Tailwind CSS"],
     highlights: [
       "Product catalog with search & filters",
       "Cart & checkout flow",
